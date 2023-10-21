@@ -4,11 +4,8 @@
  */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(251, 203, 211);
 }
 
 h1 {
@@ -16,4 +13,195 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: #023047;
+}
+
+.header-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 210px;
+}
+
+.nav-flex-box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 350px;
+}
+
+a:link {
+  color: rgb(246, 77, 181);
+}
+
+.main-container {
+  padding: 2rem;
+}
+.Margot-Robbie {
+ margin: auto;
+ width: 60rem;
+ border-radius: 2rem;
+}
+
+h1 {
+  margin: auto;
+  color: hsl(337, 81%, 19%);
+  padding: 5px
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(214, 78, 137);
+  padding: 2rem;
+  border-radius: rem;
+}
+
+.content-container a:link {
+  color: white;
+}
+
+.first-container {
+  margin: 25px;
+  padding: 5px;
+}
+
+.ruth-flex-box {
+  display: flex;
+}
+
+.item:nth-child(1) {
+  width: 21rem;
+  height: 30rem;
+  border-top-right-radius: 2rem;
+}
+
+.item:nth-child(2) {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.First {
+  margin-bottom: 12px;
+}
+
+.table-container {
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  margin: 25px;
+  padding: 15px;
+}
+
+.years {
+  margin-bottom: 25px;
+}
+
+.controversy-container {
+  padding: 25px;
+  background-color: rgb(214, 78, 137);
+}
+
+.mental-container {
+  background-color: rgb(251, 203, 211);
+  border-radius: 2rem;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+.mental-container h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.mental-flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.mental-flex-box ul {
+  width: 150px
+}
+
+.unhealthy {
+  margin-left: 50px;
+}
+
+.diversity {
+  margin-left: 10px;
+}
+
+.writer {
+  background-color: rgb(167, 33, 91);
+  border-top-right-radius: 2;
+}
+
+.writer h2 {
+  padding: 25px;
+}
+
+.writer p {
+  margin-bottom: 15px;
+}
+
+.Gerwig {
+  margin-bottom: 12px;
+}
+
+.description {
+  margin-left: 25px;
+}
+
+.debut {
+  background-color: rgb(251, 203, 211);
+  margin: 25px;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+.feminism {
+  background-color: rgb(214, 78, 137);
+  padding: 25px;
+}
+
+.newsletter {
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+footer {
+  background-color: white;
+}
+
+.footer-box-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  height: 170px;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  padding: 10px;
+}
+
+.copyright {
+  text-align: center;
 }
